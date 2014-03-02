@@ -1,1 +1,9 @@
-campaign#index
+<ul>
+  <% @campaigns.each do |campaign| %> 
+    <li> 
+      <%= link_to campaign.name, campaign_path(campaign.id) %>
+      <%= p campaign.end_date_nicely %>
+      <%= p campaign.funds_raised_in_dollars %>
+    </li>
+  <% end %>
+</ul>
