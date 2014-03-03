@@ -3,6 +3,7 @@ Nutfund::Application.routes.draw do
 
   devise_for :users
 
-  resources :campaigns
-  resources :payments
+  resources :campaigns do
+    resources :payments
+  end
 end
