@@ -1,0 +1,17 @@
+<h2>Support </h2>
+
+<%= simple_form_for [@campaign, @payment] do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :user_id, as: :hidden, input_html: { value: current_user.id } %>
+    <%= f.input :campaign_id, as: :hidden, input_html: { value: params[:campaign_id] } %>
+    <%= f.input :date, as: :hidden, input_html: { value: Date.today } %>
+    <%= f.input :amount, required: true, autofocus: true %>
+    <%= f.input :comment, required: true, as: :text %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Create Campaign" %>
+  </div>
+<% end %>
