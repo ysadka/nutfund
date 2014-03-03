@@ -1,4 +1,4 @@
-<h2>Support </h2>
+<h2>Support <%= @campaign.name %>! </h2>
 
 <%= simple_form_for [@campaign, @payment] do |f| %>
   <%= f.error_notification %>
@@ -12,6 +12,6 @@
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit, "Create Campaign" %>
+    <%= f.button :submit, "Make me a supporter!" %>
   </div>
 <% end %>

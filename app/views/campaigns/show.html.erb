@@ -3,3 +3,5 @@
 <p>It has currently raised <%= @campaign.funds_raised_in_dollars %></p>
 
 <p>Campaign end date: <%= @campaign.end_date_nicely %></p>
+
+<%= link_to 'Support this campaign', new_campaign_payment_path(@campaign.id) %>

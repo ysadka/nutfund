@@ -19,7 +19,9 @@ class PaymentsController < ApplicationController
   end
 
   def destroy
-
+    payment = Payment.find_by(id: params[:id])
+    payment.destroy
+    redirect_to campaigns_path
   end
 
   private
