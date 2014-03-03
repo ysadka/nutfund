@@ -3,6 +3,8 @@ class CreatePayments < ActiveRecord::Migration
     create_join_table :campaigns, :users, table_name: :payments do |t|
       t.index :campaign_id
       t.index :user_id
+
+      t.timestamps
     end
   end
 end
