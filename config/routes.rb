@@ -6,4 +6,7 @@ Nutfund::Application.routes.draw do
   resources :campaigns do
     resources :payments
   end
+
+  get '/about',      to: 'pages#about'
+  get '/contact_us', to: 'pages#contact'
 end
