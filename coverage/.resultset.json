@@ -423,6 +423,7 @@
       ],
       "/Users/yaron/Desktop/nutfund/config/routes.rb": [
         1,
+        1,
         null,
         1,
         1,
@@ -444,6 +445,11 @@
         1,
         null
       ],
+      "/Users/yaron/Desktop/nutfund/app/helpers/campaign_helper.rb": [
+        1,
+        null,
+        null
+      ],
       "/Users/yaron/Desktop/nutfund/app/models/campaign.rb": [
         1,
         1,
@@ -452,6 +458,16 @@
         1,
         1,
         1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
         1,
         null
       ],
@@ -467,8 +483,14 @@
         2,
         2,
         null
+      ],
+      "/Users/yaron/Desktop/nutfund/app/models/payment.rb": [
+        1,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1393797315
+    "timestamp": 1393805510
   }
 }
