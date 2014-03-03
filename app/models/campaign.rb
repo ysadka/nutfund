@@ -15,5 +15,5 @@ class Campaign < ActiveRecord::Base
     "#{end_date.month}/#{end_date.day}/#{end_date.year}"
   end
 
-  # include CampaignHelper
+  include CampaignHelper
 end
