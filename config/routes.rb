@@ -1,5 +1,5 @@
 Nutfund::Application.routes.draw do
-  root to: 'campaigns#index'
+  root to: 'campaigns#landingpage'
 
   devise_for :users
 
