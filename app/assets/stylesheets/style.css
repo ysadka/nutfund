@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(27,160,188);
+  text-align: center;
+}
+
+body h1, h2, h3, h4 {
+  color: white;
+}
+
+body a img {
+  height: 30px;
+  width: 30px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  padding-top: 20px;
+}
