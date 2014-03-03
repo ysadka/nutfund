@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/stripe/stripe-ruby
+  revision: 637d5899f614a6f4d0fa2147f9b3b8b1c8b39b28
+  specs:
+    stripe (1.10.2)
+      json (~> 1.8.1)
+      mime-types (~> 1.25)
+      rest-client (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -179,6 +188,8 @@ GEM
       ffi (>= 0.5.0)
     recipient_interceptor (0.1.2)
       mail
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     role_model (0.8.1)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -285,6 +296,7 @@ DEPENDENCIES
   shoulda-matchers
   simple_form
   simplecov
+  stripe!
   uglifier
   unicorn
   zeus (>= 0.13.4.pre2)
