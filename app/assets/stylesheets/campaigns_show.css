@@ -34,7 +34,6 @@
     background-color: rgb(37, 125, 157);
     top: 0px;
     left: 0px;
-    margin-top: 50px;
     margin-left: -100%;
     background-image:url("/assets/Profile-background.svg");
     background-attachment: scroll;
@@ -54,7 +53,7 @@
     background-color: rgb(21, 161, 143);
     top: 0px;
     left: 0px;
-    margin-top: 650px;
+    margin-top: 600px;
     margin-left: 0%;
 }
 
