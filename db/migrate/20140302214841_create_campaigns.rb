@@ -3,7 +3,7 @@ class CreateCampaigns < ActiveRecord::Migration
     create_table :campaigns do |t|
       t.string  :name,         null: false
       t.date    :end_date,     null: false
-      t.integer :funds_raised, null: false
+      t.integer :funds_raised, null: false, default: 0
       t.text    :description,  null: false
 
       t.timestamps
