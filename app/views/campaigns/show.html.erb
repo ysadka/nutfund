@@ -1,7 +1,54 @@
-<p>This is <%= @campaign.name %>. </p>
+<!DOCTYPE html>
+<!-- 
 
-<p>It has currently raised <%= @campaign.funds_raised_in_dollars %></p>
+<p>This is <  %= @campaign.name %>. </p>
 
-<p>Campaign end date: <%= @campaign.end_date_nicely %></p>
+<p>It has currently raised <  %= @campaign.funds_raised_in_dollars %></p>
 
-<%= link_to 'Support this campaign', new_campaign_payment_path(@campaign.id) %>
+<p>Campaign end date: <  %= @campaign.end_date_nicely %></p>
+
+<  %= link_to 'Support this campaign', new_campaign_payment_path(@campaign.id) %> 
+
+-->
+
+<html>
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+	<link rel="stylesheet" href="/assets/boilerplate.css" />
+	<link rel="stylesheet" href="/assets/campaigns_show.css" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+	<script>var __adobewebfontsappname__ = "reflow"</script>
+
+	<script src="http://use.edgefonts.net/pt-sans-caption:n4,n7:all.js"></script>
+    
+    </head>
+    <body>
+     
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <div id="box" class="clearfix">
+            <p id="Headline">
+            <span id="textspan">2400$</span><br />
+            </p>
+        </div>
+        <div id="box1" class="clearfix">
+            <img id="image" src="/assets/campaign_pic.png" class="image" />
+            <p id="Headline1">
+            <span id="textspan1">Stop dolphin slaughter in Japan.</span><br />
+            </p>
+            <p id="Description">
+            <span id="textspan2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco&nbsp;enim ad minim veniam, quis nostrud exercitation ullamco&nbsp;</span><br />
+            </p>
+            <input id="Donnate_Button" type="button" value="Donate some nuts"></input>
+            <input id="Donnate_Button1" type="button" value="Share this nutfund"></input>
+        </div>
+<!--         <div id="Navbar" class="clearfix">
+            <img id="image1" src="/assets/Logo.png" class="image" />
+            <img id="image2" src="/assets/Logo.png" class="image" />
+        </div> -->
+    </div>
+    </body>
+
+</html>

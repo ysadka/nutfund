@@ -1,0 +1,231 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(242, 243, 246);
+}
+
+#Navbar {
+    float: left;
+    height: 50px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+    background-color: rgb(39, 135, 170);
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+    left: 0%;
+}
+
+#box1 {
+    float: left;
+    height: 600px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+    position: relative;
+    background-color: rgb(37, 125, 157);
+    top: 0px;
+    left: 0px;
+    margin-top: 50px;
+    margin-left: -100%;
+    background-image:url("img/Profile-background.svg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#box {
+    float: left;
+    height: 70px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+    position: static;
+    background-color: rgb(21, 161, 143);
+    top: 0px;
+    left: 0px;
+    margin-top: 650px;
+    margin-left: 0%;
+}
+
+#Description {
+    float: none;
+    font-size: 1em;
+    width: 42.65512%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 15px;
+    clear: none;
+    min-height: 93px;
+    margin-right: auto;
+    min-width: 230px;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+#Headline1 {
+    float: none;
+    font-size: 33px;
+    width: 63.045321%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 6px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: pt-sans-caption;
+    margin-right: auto;
+}
+
+#Donnate_Button {
+    float: none;
+    height: 41px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 19px;
+    clear: none;
+    width: 200px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.498039);
+    opacity: 1;
+    font-family: pt-sans-caption;
+    padding-top: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid rgba(255, 255, 255, 0.498039);
+    box-shadow: rgba(0, 0, 0, 0) 0px 3px 3px 0px;
+}
+
+#image {
+    float: none;
+    width: 130px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 108px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#image2 {
+    float: none;
+    width: 137px;
+    max-width: 15.865522%;
+    height: 36px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 137px;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 16.499786%;
+    height: auto;
+    margin-left: 43.196786%;
+    margin-top: -2148px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#Donnate_Button:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 135, 170);
+}
+
+#textspan1 {
+    float: none;
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+#Donnate_Button1:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 135, 170);
+}
+
+#Donnate_Button1 {
+    float: none;
+    height: 41px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 15px;
+    clear: none;
+    width: 200px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.498039);
+    opacity: 1;
+    font-family: pt-sans-caption;
+    padding-top: 2px;
+    border: 3px solid rgba(255, 255, 255, 0.498039);
+    box-shadow: rgba(0, 0, 0, 0) 0px 3px 3px 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#Headline {
+    float: none;
+    font-size: 33px;
+    width: 63.045321%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 16.5px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: pt-sans-caption;
+    margin-right: auto;
+}
+
+#textspan {
+    float: none;
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 600;
+}
+
