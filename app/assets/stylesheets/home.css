@@ -1,0 +1,322 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+}
+
+#box {
+    float: none;
+    height: 51px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    margin-right: auto;
+    min-width: 0px;
+    background-color: rgb(39, 135, 170);
+}
+
+#box1 {
+    float: none;
+    height: 600px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    margin-right: auto;
+    min-width: 0px;
+    background-color: rgb(39, 135, 170);
+    background-image:url("/assets/Profile-background.svg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 0% 21.9%;
+    background-repeat: repeat repeat;
+}
+
+#text {
+    float: none;
+    font-size: 45px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 115px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+    font-family: pt-sans-caption;
+}
+
+#text1 {
+    float: none;
+    font-size: 1em;
+    width: 57.120427%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 19px;
+    clear: none;
+    min-height: 80px;
+    margin-right: auto;
+}
+
+#textspan {
+    float: none;
+    font-size: 20px;
+    line-height: 1.3em;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    font-weight: 200;
+}
+
+#box2 {
+    float: none;
+    height: 1px;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 54.533537%;
+    background-color: rgb(242, 243, 246);
+    margin-right: auto;
+}
+
+#input {
+    float: none;
+    height: 53px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 21px;
+    clear: none;
+    width: 214px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    color: rgba(255, 255, 255, 0.498039);
+    opacity: 1;
+    font-family: pt-sans-caption;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid rgba(255, 255, 255, 0.498039);
+    box-shadow: rgba(0, 0, 0, 0) 0px 3px 3px 0px;
+    margin-right: auto;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    visibility: hidden;
+    position: absolute;
+}
+
+#image1 {
+    float: none;
+    width: 137px;
+    max-width: 100%;
+    height: 36px;
+    margin-left: auto;
+    margin-top: 7px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#box3 {
+    float: none;
+    height: 411px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+    margin-right: auto;
+    background-image:url("/assets/backgroundsquirrel.png");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#box5 {
+    float: none;
+    height: 143px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+    margin-right: auto;
+    background-color: rgb(39, 135, 170);
+}
+
+#box4 {
+    float: none;
+    height: 312px;
+    margin-left: auto;
+    margin-top: 99px;
+    clear: none;
+    width: 800px;
+    min-height: 50px;
+    margin-right: auto;
+}
+
+#image4 {
+    float: left;
+    width: 17.714286%;
+    max-width: none;
+    height: 124px;
+    margin-left: 3.924107%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image2 {
+    float: left;
+    width: 17.714286%;
+    max-width: none;
+    height: 124px;
+    margin-left: 0.07142857%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image6 {
+    float: left;
+    width: 18.571429%;
+    max-width: none;
+    height: 130px;
+    margin-left: 3.705357%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 29.714286%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: -6.758929%;
+    margin-top: 16px;
+    clear: both;
+    min-height: 78px;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: 29.714286%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 11.758929%;
+    margin-top: 15px;
+    clear: none;
+    min-height: 78px;
+    margin-right: 0%;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+#text4 {
+    float: left;
+    font-size: 1em;
+    width: 29.714286%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 76.484375%;
+    margin-top: -82px;
+    clear: both;
+    min-height: 78px;
+    margin-right: 0%;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 14.857143%;
+    height: auto;
+    margin-left: 4.455357%;
+    margin-top: 70px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#image5 {
+    float: left;
+    width: auto;
+    max-width: 14.86%;
+    height: auto;
+    margin-left: 4.120536%;
+    margin-top: 70px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#image7 {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#input:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 159, 146);
+}
