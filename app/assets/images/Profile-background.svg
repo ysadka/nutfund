@@ -154,5 +154,5 @@
 	<stop  offset="1" style="stop-color:#315882"/>
 </linearGradient>
 <polygon id="triangle36_56_" fill="url(#triangle36_60_)" points="999.112,937.263 1326.798,1016.414 1065.599,1073.403 "/>
-<rect x="-229.315" y="90.127" opacity="0.8" fill="#329EBA" stroke="#000000" stroke-miterlimit="10" width="1556.112" height="959.53"/>
+<rect x="-229.315" y="90.127" opacity="0.4" fill="#329EBA" stroke="#000000" stroke-miterlimit="10" width="1556.112" height="959.53"/>
 </svg>
