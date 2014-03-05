@@ -327,3 +327,14 @@
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
+
+.box_content {
+background-color: #fefefe;
+text-align: left;
+width: 70%;
+margin: auto;
+padding: 20px 35px;
+}
+.box_content h2, .box_content h3, .box_content h4 {
+  color: #333;
+}
