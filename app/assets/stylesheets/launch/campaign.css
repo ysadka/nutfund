@@ -25,7 +25,7 @@
     min-width: 0px;
     background-color: rgba(41, 41, 41, 0.941176);
     position: fixed;
-    z-index: 0;
+    z-index: 300;
     top: 0px;
     left: 0.00149808%;
     opacity: 1;
