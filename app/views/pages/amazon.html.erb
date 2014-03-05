@@ -16,7 +16,7 @@ TODO:
     </div>
     <div id="box1" class="clearfix">
       <p id="text">
-        When Amazon accepts Bitcoins,<br>
+        When Amazon accepts Bitcoin,<br>
         $74,284 will be donated to Not for Sale.
       </p>
       <div id="box2" class="clearfix">
@@ -27,30 +27,35 @@ TODO:
           Encourage brands to take positive action while helping great causes.
         </span>
       </p>
-      <p>
+      <div class="calls_to_action">
+        <div class="calls_to_action_blur"></div>
         Why petition when you can pitch in? Every acorn counts.
         <!-- TODO: scroll down to bottom when clicked -->
-        <input id="input" type="button" value="Contribute Dollars">
-        <input id="input" type="button" value="Pitch in with Bitcoin">
-      </p>    
+        <button type="button">Contribute Dollars</button>
+        <button type="button" class="highlight">Pitch in with Bitcoin</button>
+      </div>
     </div>
-    <div class="box_content">
-      <h2>Trigger Widespread Merchant Bitcoin Adoption</h2>
-      <p>Amazon is the largest e-commerce company.</p>
-      <p>When they make a move, everyone else follows. It ripples throughout the industry.</p>
-      <p>Amazon's adoption of Bitcoin as a payment method is inevitable.</p>
-      <p>Let's move it up their priority list by contributing to a great charity once they accept Bitcoins.</p>
+    <div class="box_container">
+      <div class="box_content">
+        <h2>Trigger Widespread Merchant Bitcoin Adoption</h2>
+        <p>Amazon is the largest e-commerce company.</p>
+        <p>When they make a move, everyone else follows. It ripples throughout the industry.</p>
+        <p>Amazon's adoption of Bitcoin as a payment method is inevitable.</p>
+        <p>Let's move it up their priority list by contributing to a great charity once they accept Bitcoin.</p>
+      </div>
     </div>
-    <div class="box_content">
-      <h2>Every day 5,000 kids under the age of 5 die from water-related illnesses.</h2>
+    <div class="box_container">
+      <div class="box_content">
+        <h2>Every day 5,000 kids under the age of 5 die from water-related illnesses.</h2>
 
-      <p>Many of us have no idea what it's like to be thirsty. We have plenty of water to drink -- even the water in our toilets is clean!</p>
+        <p>Many of us have are lucky enough not to know what it's like to be thirsty. We have plenty of water to drink -- even the water in our toilets is drinkable!</p>
 
-      <p>But many people around the world don’t have that luxury. Every day, 5,000 kids die from water-related illnesses before they reach their fifth birthday. But it doesn’t have to be that way. There are simple solutions like drilled wells, spring protections and BioSand Filters that help provide clean water to communities around the world.</p>
+        <p>Millions of people around the world don’t have that luxury. Every day, 5,000 kids die from water-related illnesses before they reach their 5th birthday. But it doesn’t have to be that way. There are simple solutions like drilled wells, spring protections, and BioSand Filters that help provide clean water to communities around the world.</p>
 
-      <p>100% of the money will be used to build clean water projects, and when they’re complete, charity: water will send us photos and GPS coordinates so we can see the exact community we helped.
+        <p>100% of the money will be used to build clean water projects, and when they’re complete, charity: water will send us photos and GPS coordinates so we can see the exact community we helped.
 
-      <p><a href="http://www.charitywater.org/">Learn more about this charity</a></p>
+        <p><a href="http://www.charitywater.org/">Learn more about this charity</a></p>
+      </div>
     </div>
     <div id="box3" class="clearfix">
         <div id="box4" class="clearfix">
@@ -70,65 +75,71 @@ TODO:
             </p>
         </div>
     </div>
-    <div class="box_content">
-      <h2>Nutfunds are Bounties for Progress</h2>
-      <p>We've all been there: reaching out to a major brand, and having our voice ignored.</p>
-      <p>People have tried petitions, trending tweets, and protests - but has anyone actually put money on the line for their cause?</p>
-      <p>We want to inspire brands to take positive action while also contributing to human progress by supporting great causes.</p>
-      <p>We just launched on March 4th, 2014, and we are honored to have you here. Thank you for being part of our grand experiment. We are excited to hear your feedback, don't hesitate to reach out to us with ideas, concerns, cartoons, or bitcoin tips! We're charging zero fees.</p>
-      <p><a href="/contact">Send Feedback to Team Nutfund</a></p>
-    </div>
-    <div class="box_content">
-      <h2>Who's behind this?</h2>
-      <p>We're a team competing in the <a href="http://startupbus.com">StartupBus</a> business competition.</p>
-      <p>This idea was brainstormed and created on a bus during a roadtrip from San Francisco to Austin, Texas.</p>
-      <p>We are committed to executing this idea, are in touch with all of the nonprofits listed, and will not disappear after the competition.</p>
-      <p>We're completely blown away that you're here. Thank you for contributing to our team's success.</p>
-      <p><a href="/about">Learn more about us on our team page.</a></p>
-    </div>
-    <div class="box_content">
-      <h2>Join this Bounty for Progress</h2>
-      <p>Every acorn counts. Get a major brand's attention while supporting a great cause.</p>
-      <p>Nutfund does not charge any transaction fees.</p>
-      <h3>Pitch in using Bitcoin</h3>
-      <p>
-        Bitcoin allows your contribution to make the most impact by bypassing credit card processing fees. Our Bitcoin exchange charges a 1% processing fee, in contrast to the 2-4% fee charged by our card processor.
-      </p>
-
-      <a class="coinbase-button" data-code="ac547e2eeb67517e3691f3ee6b8b5632" href="https://coinbase.com/checkouts/ac547e2eeb67517e3691f3ee6b8b5632">Pitch in With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-      <!-- uncomment this when internet is offline: -->
-      <!-- <script src="/js/button.js"></script> -->
-   
-      <h3>Contribute using a Credit or Debit Card</h3>
-      
-      <script src="https://checkout.stripe.com/checkout.js"></script>
-      <!-- uncomment this when internet is offline: -->
-      <!-- <script src="/js/checkout.js"></script> -->
-      <div>
-        <p>
-          I'll pitch in:<br>
-          $<input type="text" id="stripe_amount" value="35"> USD
-        </p>
-        <button id="customButton">Pay with Card</button>
+    <div class="box_container">
+      <div class="box_content">
+        <h2>Nutfunds are Bounties for Progress</h2>
+        <p>We've all been there: reaching out to a major brand, and having our voice ignored.</p>
+        <p>People have tried petitions, trending tweets, and protests - but has anyone actually put money on the line for their cause?</p>
+        <p>We want to inspire brands to take positive action while also contributing to human progress by supporting great causes.</p>
+        <p>We just launched on March 4th, 2014, and we are honored to have you here. Thank you for being part of our grand experiment. We are excited to hear your feedback, don't hesitate to reach out to us with ideas, concerns, cartoons, or bitcoin tips! We're charging zero fees.</p>
+        <p><a href="/contact">Send Feedback to Team Nutfund</a></p>
       </div>
-      <script>
-        var handler = StripeCheckout.configure({
-          key: 'pk_m8w8g5LIHb4Lz2BmNV7uW8mt4lM2w',
-          // image: '/square-image.png',
-        });
+    </div>
+    <div class="box_container">
+      <div class="box_content">
+        <h2>Who's behind this?</h2>
+        <p>We're a team competing in the <a href="http://startupbus.com">StartupBus</a> business competition.</p>
+        <p>This idea was brainstormed and created on a bus during a roadtrip from San Francisco to Austin, Texas.</p>
+        <p>We are committed to executing this idea, are in touch with all of the nonprofits listed, and will not disappear after the competition.</p>
+        <p>We're completely blown away that you're here. Thank you for contributing to our team's success.</p>
+        <p><a href="/about">Learn more about us on our team page.</a></p>
+      </div>
+    </div>
+    <div class="box_container">
+      <div class="box_content">
+        <h2>Join this Bounty for Progress</h2>
+        <p>Every acorn counts. Get a major brand's attention while supporting a great cause.</p>
+        <p>Nutfund does not charge any transaction fees.</p>
+        <h3>Pitch in using Bitcoin</h3>
+        <p>
+          Bitcoin allows your contribution to make the most impact by bypassing credit card processing fees. Our Bitcoin exchange charges a 1% processing fee, in contrast to the 2-4% fee charged by our card processor.
+        </p>
 
-        document.getElementById('customButton').addEventListener('click', function(e) {
-          // Open Checkout with further options
-          var amount = parseInt($('#stripe_amount').val()) * 100;
-          handler.open({
-            name: 'Pitch in to a Nutfund Bounty',
-            description: 'Bounty: Amazon + Not for Sale',
-            amount: amount
+        <a class="coinbase-button" data-code="ac547e2eeb67517e3691f3ee6b8b5632" href="https://coinbase.com/checkouts/ac547e2eeb67517e3691f3ee6b8b5632">Pitch in With Bitcoin</a>
+        <!--<script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>-->
+        <!-- uncomment this when internet is offline: -->
+        <script src="/js/button.js"></script>
+     
+        <h3>Contribute using a Credit or Debit Card</h3>
+        
+        <!-- <script src="https://checkout.stripe.com/checkout.js"></script> -->
+        <!-- uncomment this when internet is offline: -->
+        <script src="/js/checkout.js"></script>
+        <div>
+          <p>
+            I'll pitch in:<br>
+            $<input type="text" id="stripe_amount" value="35"> USD
+          </p>
+          <button id="customButton">Pay with Card</button>
+        </div>
+        <script>
+          var handler = StripeCheckout.configure({
+            key: 'pk_m8w8g5LIHb4Lz2BmNV7uW8mt4lM2w',
+            // image: '/square-image.png',
           });
-          e.preventDefault();
-        });
-      </script>
 
+          document.getElementById('customButton').addEventListener('click', function(e) {
+            // Open Checkout with further options
+            var amount = parseInt($('#stripe_amount').val()) * 100;
+            handler.open({
+              name: 'Pitch in to a Nutfund Bounty',
+              description: 'Bounty: Amazon + Not for Sale',
+              amount: amount
+            });
+            e.preventDefault();
+          });
+        </script>
+      </div>
     </div>
     <div id="box5" class="clearfix">
         <img id="image7" src="/assets/icon_267181.svg" class="image" />
