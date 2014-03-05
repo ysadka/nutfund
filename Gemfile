@@ -22,8 +22,9 @@ gem 'role_model'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
-gem 'unicorn'
 gem 'zurb-foundation'
+gem 'keen'
+gem 'puma'
 
 group :development do
   gem 'better_errors'
