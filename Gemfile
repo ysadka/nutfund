@@ -5,6 +5,7 @@ ruby '2.0.0'
 gem 'rails', '>= 4.0.0'
 
 gem 'coffee-rails'
+gem 'coinbase'
 gem 'delayed_job_active_record', '>= 4.0.0'
 gem 'devise'
 gem 'email_validator'
