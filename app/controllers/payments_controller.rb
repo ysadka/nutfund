@@ -17,13 +17,14 @@ class PaymentsController < ApplicationController
     render nothing: true
 
     amount = params["order"]["total_native"]["cents"]
+    btc_amount = params["order"]["total_btc"]["cents"]
     email = params["customer"]["email"]
     date = params["order"]["created_at"].to_date
 
     if find_user(email)
-      create_bitcoin_payment(email, amount, date, 1)
+      create_bitcoin_payment(email, amount, btc_amount, date, 1)
     else
-      create_user_and_bitcoin_payment(email, amount, date, 1)
+      create_user_and_bitcoin_payment(email, amount, btc_amount, date, 1)
     end
   end
 
