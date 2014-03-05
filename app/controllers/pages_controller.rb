@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def launch
-    @amount_raised_btc = 4.6894
+    @amount_raised_btc = total_btc_raised
     @amount_raised_usd = (@amount_raised_btc * get_updated_rate).round
     render layout: 'launch'
   end

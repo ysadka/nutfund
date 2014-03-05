@@ -33,4 +33,13 @@ module ChargesHelper
     obj = JSON.parse(result)
     obj['amount'].to_i
   end
+
+  def total_btc_raised
+    payments = Payment.where('btc_amount > ?', 0)
+    total_raised = 0
+    payments.each do |payment|
+      total_raised += payment.btc_amount
+    end
+    total_raised
+  end
 end
