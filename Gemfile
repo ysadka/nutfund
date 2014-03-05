@@ -25,7 +25,6 @@ gem 'uglifier'
 gem 'zurb-foundation'
 gem 'keen'
 gem 'puma'
-gem 'foreman'
 
 group :development do
   gem 'better_errors'
