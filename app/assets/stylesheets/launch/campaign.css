@@ -1,0 +1,654 @@
+/* #sneakybastard let's get some clicks */
+#vote_vote_vote {
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(242, 243, 246);
+}
+
+#Navbar {
+    float: left;
+    height: 50px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+    background-color: rgba(41, 41, 41, 0.941176);
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+    left: 0.00149808%;
+    opacity: 1;
+    bottom: auto;
+}
+
+#box {
+    float: left;
+    height: 594px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 0px;
+    position: relative;
+    background-color: rgb(37, 125, 157);
+    top: 0px;
+    left: 0px;
+    margin-top: 2px;
+    margin-left: 0px;
+    background-image:url("/assets/charitywater_2048.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#Description {
+    float: none;
+    font-size: 1em;
+    width: 515.0625px;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 93px;
+    min-width: 230px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: rgba(255, 255, 255, 0.811765);
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+#Headline {
+    float: none;
+    font-size: 33px;
+    width: 80.866491%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 145px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    text-shadow: rgba(0, 0, 0, 0.341176) 0px 1px 3px;
+    margin-right: auto;
+}
+
+#image1 {
+    float: none;
+    width: 137px;
+    max-width: 15.865522%;
+    height: 36px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 137px;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 16.499786%;
+    height: auto;
+    margin-left: 43.196786%;
+    margin-top: -2148px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#textspan {
+    float: none;
+    font-size: 33px;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 15.324136%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: -56.79488%;
+    margin-top: 490px;
+    clear: both;
+    min-height: 26px;
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: 23.489029%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 39.320359%;
+    margin-top: -70.5px;
+    clear: none;
+    min-height: 33px;
+}
+
+#Headline1 {
+    float: none;
+    font-size: 33px;
+    width: 63.103727%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    text-shadow: rgba(0, 0, 0, 0.341176) 0px 1px 3px;
+    position: absolute;
+    top: 458.890625px;
+    left: 18.405441%;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 80px;
+    line-height: 1em;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#input {
+    float: none;
+    height: 39.109375px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 13px;
+    clear: none;
+    width: 210.796875px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    line-height: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(167, 94, 55, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    padding-top: 5px;
+    margin-right: auto;
+    opacity: 0.6;
+    letter-spacing: 2px;
+}
+
+#text {
+    float: none;
+    font-size: 1em;
+    width: 36.034875%;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    clear: none;
+    min-height: 26px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    opacity: 0.7;
+    position: absolute;
+    top: 548px;
+    left: 31.979626%;
+}
+
+#input:hover {
+    opacity: 1;
+    background-color: rgba(55, 133, 167, 0.960784);
+}
+
+#input1:hover {
+    opacity: 1;
+    background-color: rgba(55, 133, 167, 0.960784);
+}
+
+#input1 {
+    float: none;
+    height: 39.109375px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 11.78125px;
+    clear: none;
+    width: 210.796875px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    line-height: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    padding-top: 5px;
+    opacity: 0.6;
+    letter-spacing: 2px;
+    background-color: rgba(255, 0, 0, 0);
+    margin-right: auto;
+}
+
+#Headline2 {
+    float: none;
+    font-size: 33px;
+    width: 80.861037%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 9.565395%;
+    margin-top: 646.5px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(84, 84, 84);
+    font-family: helvetica;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 33px;
+    line-height: 1em;
+    font-weight: 300;
+}
+
+#Description1 {
+    float: none;
+    font-size: 1em;
+    width: 60.576795%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 93px;
+    min-width: 230px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textspan4 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: rgba(63, 63, 63, 0.811765);
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+#Headline3 {
+    float: none;
+    font-size: 33px;
+    width: 80.861037%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 9.761505%;
+    margin-top: 32.5px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(84, 84, 84);
+    font-family: helvetica;
+}
+
+#textspan5 {
+    float: none;
+    font-size: 33px;
+    line-height: 1em;
+    font-weight: 300;
+}
+
+#Description2 {
+    float: none;
+    font-size: 1em;
+    width: 60.575133%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 93px;
+    min-width: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textspan6 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: rgba(63, 63, 63, 0.811765);
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+#image2 {
+    float: none;
+    width: 465px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 6px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#box1 {
+    float: left;
+    height: 415px;
+    margin-left: 0%;
+    margin-top: 40px;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    background-image:url("/assets/squirrelback.png");
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: rgb(59, 59, 59);
+    position: relative;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#Headline4 {
+    float: none;
+    font-size: 33px;
+    width: 80.859764%;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 42px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    margin-right: auto;
+}
+
+#Description3 {
+    float: none;
+    font-size: 1em;
+    width: 50.491294%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 62px;
+    min-width: 230px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    color: rgb(251, 251, 251);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+}
+
+#textspan7 {
+    float: none;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: rgba(255, 255, 255, 0.811765);
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+#box2 {
+    float: none;
+    height: 119px;
+    clear: none;
+    width: 70.261194%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16.375px;
+}
+
+#image3 {
+    float: left;
+    width: 112px;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 15.79737%;
+    max-width: none;
+}
+
+#image4 {
+    float: left;
+    width: 112px;
+    max-width: none;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 29.86785%;
+}
+
+#image5 {
+    float: left;
+    width: 112px;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 43.93035%;
+}
+
+#image6 {
+    float: left;
+    width: 112px;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 57.892301%;
+}
+
+#image7 {
+    float: left;
+    width: 112px;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 71.957993%;
+}
+
+#image8 {
+    float: none;
+    width: 38px;
+    max-width: none;
+    height: 38px;
+    margin-left: auto;
+    margin-top: 49.25px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+    min-width: 38px;
+    opacity: 0.6;
+}
+
+#text3 {
+    float: none;
+    font-size: 12px;
+    width: 205px;
+    height: auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 10.75px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 566px) {
+    #Headline {
+        margin-top: 108px;
+        clear: none;
+        width: 70.994368%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Description {
+        margin-top: 15px;
+        clear: none;
+        width: 399.4375px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #input {
+        width: 210.796875px;
+        height: 39.109375px;
+        margin-top: 29px;
+        clear: none;
+    }
+
+    #input1 {
+        width: 210.796875px;
+        height: 39.109375px;
+        margin-top: 11.5625px;
+        clear: none;
+    }
+
+    #Headline1 {
+        width: 63.024514%;
+    }
+
+    #text {
+        width: 36.034121%;
+    }
+
+    #textspan {
+        line-height: 1.2em;
+    }
+
+    #Headline2 {
+        margin-top: 108px;
+        clear: none;
+        width: 70.994368%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #textspan3 {
+        line-height: 1.2em;
+    }
+
+    #Description1 {
+        margin-top: 15px;
+        clear: none;
+        width: 399.4375px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Headline3 {
+        margin-top: 108px;
+        clear: none;
+        width: 70.994368%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #textspan5 {
+        line-height: 1.2em;
+    }
+
+    #Description2 {
+        margin-top: 15px;
+        clear: none;
+        width: 399.4375px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Headline4 {
+        margin-top: 108px;
+        clear: none;
+        width: 70.994368%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Description3 {
+        margin-top: 15px;
+        clear: none;
+        width: 399.4375px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

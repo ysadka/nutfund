@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
+  def launch
+    render layout: 'launch'
+  end
 
   def about
     
