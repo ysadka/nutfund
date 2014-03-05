@@ -17,14 +17,13 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   	<%= stylesheet_link_tag    "launch" %>
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
 
   <body>
     <%= yield %>
 
-    <%= javascript_include_tag "application" %>
-    
     <script>
     if (!localStorage.hasVotedForUs) {
       (function(d){
