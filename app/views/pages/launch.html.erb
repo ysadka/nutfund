@@ -2,23 +2,17 @@
     <div id="box" class="clearfix">
         <p id="Headline">
         <span id="textspan">
-            When Amazon accepts Bitcoin,<br>
-            $74,284 will be donated to charity: water
+            When a Fortune 100 company accepts Bitcoin<br>
+            $<%= number_with_delimiter @amount_raised_usd, :delimiter => ',' %> will be donated to charity: water
         </span><br />
         </p>
         <p id="Description">
-            <!--
-        <span id="textspan1">
-            Nutfunds are Bounties for Progress.<br>
-            Encourage brands to take positive action while helping great causes.
-        </span><br />
-    -->
         </p>
-        <input id="input" type="button" value="Donate to Nutfund"></input>
+        <input id="input" type="button" value="Pitch in"></input>
         <!-- <input id="input1" type="button" value="Share this Nutfund"></input> -->
         <p id="Headline1">
         <span id="textspan2">
-            $<%= @amount_raised %>
+            ฿<%= @amount_raised_btc %>
         </span><br />
         </p>
         <p id="text">
@@ -63,7 +57,6 @@
             We've all been there: reaching out to a major brand, and having our voice ignored.
             People have tried petitions, trending tweets, and protests - but has anyone actually put money on the line for their cause?<br><br>
             We want to inspire brands to take positive action while also contributing to human progress by supporting great causes.
-            We just launched on March 4th, 2014, and we are honored to have you here. Thank you for being part of our grand experiment. We are excited to hear your feedback, don't hesitate to reach out to us with ideas, concerns, cartoons, or bitcoin tips! We're charging zero fees. 
         </span><br />
     </p>
     <p id="Headline3">
@@ -82,71 +75,16 @@
             All BTC will be released to charity: water if no action occurs within three months.
         </span><br />
     </p>
-    <p id="Headline3">
-        <span id="textspan5">
-            Who's behind this?
-        </span><br />
-    </p>
-    <p id="Description2">
-        <span id="textspan6">
-            We're a team competing in the <a href="http://startupbus.com">StartupBus</a> business competition.
-            This idea was brainstormed and created on a bus during a roadtrip from San Francisco to Austin, Texas.
-            We are committed to executing this idea, are in touch with all of the nonprofits listed, and will not disappear after the competition.
-            We're completely blown away that you're here. Thank you for contributing to our team's success.
-        </span><br />
-    </p>
-    <div class="box_container">
-      <div class="box_content">
-        <h2>Join this Bounty for Progress</h2>
-        <p>Every acorn counts. Get a major brand's attention while supporting a great cause.</p>
-        <p>Nutfund does not charge any transaction fees.</p>
-        <h3>Pitch in using Bitcoin</h3>
-        <p>
-          Bitcoin allows your contribution to make the most impact by bypassing credit card processing fees. Our Bitcoin exchange charges a 1% processing fee, in contrast to the 2-4% fee charged by our card processor.
-        </p>
-
-        <a class="coinbase-button" data-code="3c54ceafe6e192bc0bce1ec2e971a62c" data-button-style="donation_large" href="https://coinbase.com/checkouts/3c54ceafe6e192bc0bce1ec2e971a62c">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-        <!--<script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>-->
-        <!-- uncomment this when internet is offline: -->
-        <script src="/js/button.js"></script>
-     
-        <h3>Contribute using a Credit or Debit Card</h3>
-        
-        <!-- <script src="https://checkout.stripe.com/checkout.js"></script> -->
-        <!-- uncomment this when internet is offline: -->
-        <script src="/js/checkout.js"></script>
-        <div class="stripe_container">
-          <p>
-            I'll pitch in:<br>
-            $<input type="text" id="stripe_amount" value="35"> USD
-          </p>
-          <button id="customButton">Pay with Card</button>
-        </div>
-        <script>
-          var handler = StripeCheckout.configure({
-            key: 'pk_m8w8g5LIHb4Lz2BmNV7uW8mt4lM2w',
-            // image: '/square-image.png',
-          });
-
-          document.getElementById('customButton').addEventListener('click', function(e) {
-            // Open Checkout with further options
-            var amount = parseInt($('#stripe_amount').val()) * 100;
-            handler.open({
-              name: 'Pitch in to a Nutfund Bounty',
-              description: 'Bounty: Amazon + Not for Sale',
-              amount: amount
-            });
-            e.preventDefault();
-          });
-        </script>
-      </div>
-    </div>
     <div id="box1" class="clearfix">
         <p id="Headline4">
-        Squirrels and worldchangers unite.
+            Hackers and Hustlers unite.
         </p>
         <p id="Description3">
-        <span id="textspan7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim&nbsp;</span><br />
+        <span id="textspan7">
+            We're a team competing in the <a href="http://startupbus.com">StartupBus</a> business competition.
+            This idea was brainstormed and created on a bus during a roadtrip from San Francisco to Austin, Texas.
+            We are committed to executing this idea, and will not disappear after the competition.
+        </span><br />
         </p>
         <div id="box2" class="clearfix">
             <img id="image3" src="/assets/carlos.png" class="image" />
@@ -155,7 +93,7 @@
             <img id="image6" src="/assets/yaron.png" class="image" />
             <img id="image7" src="/assets/kenneth.png" class="image" />
         </div>
-        <img id="image8" src="/assets/bus-256%20copy.png" class="image" />
+        <a href="http://northamerica.startupbus.com/about/"><img id="image8" src="/assets/bus-256%20copy.png" class="image" /></a>
         <p id="text3">
         Made of startupbus with love
         </p>
