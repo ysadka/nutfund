@@ -8,7 +8,7 @@
         </p>
         <p id="Description">
         </p>
-        <input id="input" type="button" value="Pitch in"></input>
+        <input id="input" class="pitch_in_button" type="button" value="Pitch in"></input>
         <!-- <input id="input1" type="button" value="Share this Nutfund"></input> -->
         <p id="Headline1">
         <span id="textspan2">
@@ -61,12 +61,13 @@
     </p>
     <p id="Headline3">
         <span id="textspan5">
-            Join this Bounty for Progress
+            <a name="fund"></a>
+            Pitch in to this Bounty
         </span><br />
     </p>
     <p id="Description2">
         <span id="textspan6">
-            Every acorn counts. Get a major brand's attention while supporting a great cause.
+            Get a major brand's attention while supporting a great cause. Every acorn counts.
             <br><br>
             <a class="coinbase-button" data-code="3c54ceafe6e192bc0bce1ec2e971a62c" data-button-style="donation_large" href="https://coinbase.com/checkouts/3c54ceafe6e192bc0bce1ec2e971a62c">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
             <br>
@@ -95,7 +96,14 @@
         </div>
         <a href="http://northamerica.startupbus.com/about/"><img id="image8" src="/assets/bus-256%20copy.png" class="image" /></a>
         <p id="text3">
-        Made of startupbus with love
+        Made on startupbus with love
         </p>
     </div>
 </div>
+<script>
+/*
+$('.pitch_in_button').click(function () {
+    document.hash = '#fund';
+});
+*/
+</script>
