@@ -12,5 +12,5 @@ Nutfund::Application.routes.draw do
   get '/about',      to: 'pages#about'
   get '/contact_us', to: 'pages#contact'
   get '/bounties/', to: 'pages#nutfund'
-  get '/bounties/when-amazon-accepts-bitcoin', to: 'pages#amazon'
+  get '/when-amazon-accepts-bitcoin', to: 'pages#amazon'
 end

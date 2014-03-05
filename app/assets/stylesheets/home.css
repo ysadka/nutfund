@@ -102,7 +102,7 @@
     float: none;
     height: 53px;
     font-size: 1em;
-    margin-left: 10px;
+    margin-left: auto;
     margin-top: 21px;
     clear: none;
     width: 214px;
@@ -354,6 +354,9 @@
     margin-bottom: 20px;
     color: #fefefe;
 }
+.calls_to_action button {
+    margin-left: 10px;
+}
 /*
 .calls_to_action_blur {
     bottom: 0;
@@ -363,3 +366,17 @@
     filter: blur(6px);    
 }
 */
+
+.stripe_container {
+    padding: 20px;
+    width: 80%;
+    border: 1px #eee solid;
+}
+
+#stripe_amount {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
