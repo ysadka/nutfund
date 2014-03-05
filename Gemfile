@@ -23,6 +23,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'unicorn'
 gem 'zurb-foundation'
+gem 'keen'
 
 group :development do
   gem 'better_errors'
