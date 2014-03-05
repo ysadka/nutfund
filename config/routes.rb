@@ -13,4 +13,7 @@ Nutfund::Application.routes.draw do
   get '/contact_us', to: 'pages#contact'
   get '/bounties/', to: 'pages#nutfund'
   get '/amazon', to: 'pages#amazon'
+  get '/when-amazon-accepts-bitcoin', to: 'pages#amazon'
+
+  post '/coinbase_callback', to: 'payments#coinbase_callback'
 end

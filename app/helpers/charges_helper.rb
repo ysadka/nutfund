@@ -1,24 +1,28 @@
 module ChargesHelper
 
-  def charge_stripe(user, token, campaign, amount, payment)
-    customer = Stripe::Customer.create(
-      email: user.email,
-      card:  token
-      )
+  def find_user(email)
+    User.find_by(email: email)
+  end
 
-    charge = Stripe::Charge.create(
-      customer:    customer.id,
-      amount:      amount,
-      description: 'Supporting' + campaign.name,
-      currency:    'usd'
-      )
+  def create_bitcoin_payment(email, amount, date, campaign_id)
+    user = User.find_by(email: email)
 
-  rescue Stripe::CardError => e
-    flash[:error] = e.message
-    if payment.save
-      redirect_to campaign_path(campaign.id)
-    else
-      render :new
-    end
+    payment = Payment.create(campaign_id: campaign_id,
+                             user_id: user.id,
+                             amount: amount,
+                             date: date
+                            )
+  end
+
+  def create_user_and_bitcoin_payment(email, amount, date, campaign_id)
+    user = User.create(email: email, 
+                        password: 'tempp@ssw0rd',
+                        password_confirmation: 'tempp@ssw0rd'
+                      )
+    payment = Payment.create(campaign_id: campaign_id,
+                             user_id: user.id,
+                             amount: amount,
+                             date: date
+                            )
   end
 end
