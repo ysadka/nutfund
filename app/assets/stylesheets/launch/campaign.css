@@ -545,6 +545,10 @@
     margin-right: auto;
 }
 
+.fine_print {
+    font-size: 13px;
+}
+
 @media only screen and (max-width: 566px) {
     #Headline {
         margin-top: 108px;

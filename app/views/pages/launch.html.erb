@@ -8,7 +8,9 @@
         </p>
         <p id="Description">
         </p>
-        <input id="input" class="pitch_in_button" type="button" value="Pitch in"></input>
+        <a href="#fund">
+            <input id="input" class="pitch_in_button" type="button" value="Pitch in"></input>
+        </a>
         <!-- <input id="input1" type="button" value="Share this Nutfund"></input> -->
         <p id="Headline1">
         <span id="textspan2">
@@ -16,7 +18,7 @@
         </span><br />
         </p>
         <p id="text">
-        Total amount raised to date
+        Raised since March 4th
         </p>
     </div>
     <div id="Navbar" class="clearfix">
@@ -30,14 +32,14 @@
     Text
     </p>
     <p id="Headline2">
-    <span id="textspan3">Trigger Widespread Bitcoin Adoption by Merchants</span><br />
+    <span id="textspan3">Ignite Widespread Bitcoin Adoption</span><br />
     </p>
     <p id="Description1">
     <span id="textspan4">
         When Fortune 100 companies make a move, everyone follows.
-        We strongly believe that at least one major corporation will announce acceptance of Bitcoin this year.
-        Let's make it happen sooner and help a great cause.
-        This bounty will be donated to charity: water when a Fortune 100 begins accepting Bitcoin as a first-class citizen.
+        We strongly believe that at least one major corporation will announce the acceptance of Bitcoin this year.<br><br>
+        Let's make it happen sooner and help a great cause.<br><br>
+        This bounty will be donated to charity: water when a Fortune 100 company begins accepting Bitcoin as a first-class citizen alongside major credit card brands.<br>
     </span><br />
     </p>
     <img id="image2" src="/assets/howitworks.png" class="image" />
@@ -47,12 +49,13 @@
     <p id="Description2">
     <span id="textspan6">
         This bounty's funds will be released to <a href="http://charitywater.org">charity: water</a> to help provide clean water to communities around the world.
-        Every day, 5,000 kids die from water-related illnesses before they reach their 5th birthday. It doesn’t have to be that way. There are simple solutions like drilled wells, spring protections, and BioSand Filters that help provide clean water to communities around the world.
+        Every day 5,000 kids die from water-related illnesses before they reach their 5th birthday. It doesn’t have to be that way. There are simple solutions like drilled wells, spring protections, and BioSand Filters that help provide clean water to communities around the world.
     </span><br />
     </p>
     <p id="Headline3">
         <span id="textspan5">Nutfunds are Bounties for Progress</span><br />
     </p>
+    <a name="fund"></a>
     <p id="Description2">
         <span id="textspan6">
             We've all been there: reaching out to a major brand, and having our voice ignored.
@@ -62,7 +65,6 @@
     </p>
     <p id="Headline3">
         <span id="textspan5">
-            <a name="fund"></a>
             Pitch in to this Bounty
         </span><br />
     </p>
@@ -72,9 +74,12 @@
             <br><br>
             <a class="coinbase-button" data-code="3c54ceafe6e192bc0bce1ec2e971a62c" data-button-style="donation_large" href="https://coinbase.com/checkouts/3c54ceafe6e192bc0bce1ec2e971a62c">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
             <br>
-            Nutfund does not charge any transaction fees. <br>
-            Our payment processor will charge a 1% fee if over $1mil is raised.<br>
-            All BTC will be released to charity: water if no action occurs within three months.
+            <span class="fine_print">
+                Nutfund does not charge any transaction fees.<br>
+                Our payment processor charges no fees on the first $1m processed, then 1% thereafter.<br>
+                Funds are stored as BTC and converted into USD when the bounty is completed.<br>
+                If no action occurs within three months, all funds will be released to the nonprofit.
+            </span>
         </span><br />
     </p>
     <div id="box1" class="clearfix">
@@ -83,9 +88,9 @@
         </p>
         <p id="Description3">
         <span id="textspan7">
-            We're a team competing in the <a href="http://startupbus.com">StartupBus</a> business competition.
-            This idea was brainstormed and created on a bus during a roadtrip from San Francisco to Austin, Texas.
-            We are committed to executing this idea, and will not disappear after the competition.
+            We're representing the West Coast in the <a href="http://startupbus.com" style="color: rgb(255, 214, 0);">StartupBus North America</a> business competition.
+            This idea was brainstormed and created on a bus during a roadtrip from San Francisco to Austin, Texas from March 1st-5th, 2014.We are committed to executing this idea.
+            <br>
         </span><br />
         </p>
         <div id="box2" class="clearfix">
@@ -96,6 +101,7 @@
                 <img id="image6" src="/assets/yaron.png" class="image" />
                 <img id="image7" src="/assets/kenneth.png" class="image" />
             </a>
+            <!-- <a href="http://game.startupbus.com/teams/27" style="color: rgb(255, 214, 0);">Learn more about our team</a> -->
         </div>
         <a href="http://northamerica.startupbus.com/about/"><img id="image8" src="/assets/bus-256%20copy.png" class="image" /></a>
         <p id="text3">
@@ -104,9 +110,12 @@
     </div>
 </div>
 <script>
+/*
 $(function() {
     $('.pitch_in_button').click(function () {
+        $('a[name=fund]').smoothScroll();
         document.hash = '#fund';
     });
 });
+*/
 </script>
