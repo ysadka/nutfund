@@ -189,27 +189,40 @@
     font-style: normal;
 }
 
-#input {
+#pitchin {
     float: none;
-    height: 39.109375px;
-    font-size: 1em;
+    height: 58.84375px;
+    font-size: 31px;
     margin-left: auto;
-    margin-top: -30px;
+    margin-top: 46px;
     clear: none;
-    width: 210.796875px;
+    width: 252.546875px;
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
     border-bottom-left-radius: 45px;
     line-height: 0px;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.4);
     color: rgb(255, 255, 255);
     font-weight: 200;
     padding-top: 5px;
-    margin-right: auto;
     opacity: 0.6;
     letter-spacing: 2px;
+    background-color: rgba(167, 94, 55, 0);
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: auto;
+    width: 250.796875px;
+    height: 55.109375px;
+    margin-top: 29px;
+    clear: none;
+}
+
+#pitchin:hover {
+    opacity: 1;
+    background-color: rgba(209, 161, 28, 0.960784);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 #text {
