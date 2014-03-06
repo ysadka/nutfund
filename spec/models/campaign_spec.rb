@@ -6,8 +6,9 @@ describe Campaign, 'associations' do
 end
 
 describe Campaign, 'validations' do
-  it { expect(subject).to validate_presence_of(:name) }
-  it { expect(subject).to validate_presence_of(:end_date) }
+  it { expect(subject).to validate_presence_of(:charity) }
   it { expect(subject).to validate_presence_of(:funds_raised) }
-  it { expect(subject).to validate_presence_of(:description) }
+  it { expect(subject).to validate_presence_of(:action_description) }
+  it { expect(subject).to validate_presence_of(:action) }
+  it { expect(subject).to validate_presence_of(:charity_link) }
 end
