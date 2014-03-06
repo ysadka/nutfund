@@ -12,8 +12,5 @@ class PagesController < ApplicationController
   def contact  
   end
 
-  def amazon
-  end
-
   include ChargesHelper
 end

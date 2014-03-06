@@ -4,9 +4,10 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :name, :required => true, :autofocus => true %>
-    <%= f.input :end_date, :required => true, as: :date %>
-    <%= f.input :description, :required => true, as: :text %>
+    <%= f.input :action, :required => true, :autofocus => true %>
+    <%= f.input :charity, :required => true %>
+    <%= f.input :action_description, :required => true, as: :text %>
+    <%= f.input :charity_description, :required => true, as: :text %>
   </div>
 
   <div class="form-actions">

@@ -1,4 +1,7 @@
 class CampaignsController < ApplicationController
+  def homepage
+    
+  end
 
   def index
     @campaigns = Campaign.all
