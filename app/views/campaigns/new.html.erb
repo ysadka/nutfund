@@ -1,16 +1,77 @@
-<h2>Create a Campaign</h2>
+<%= stylesheet_link_tag 'launch/boilerplate.css' %>
+<%= stylesheet_link_tag 'campaign/new.css' %>
 
 <%= simple_form_for @campaign do |f| %>
   <%= f.error_notification %>
 
-  <div class="form-inputs">
-    <%= f.input :action, :required => true, :autofocus => true %>
-    <%= f.input :charity, :required => true %>
-    <%= f.input :action_description, :required => true, as: :text %>
-    <%= f.input :charity_description, :required => true, as: :text %>
-  </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, "Create Campaign" %>
-  </div>
+<div id="primaryContainer" class="primaryContainer clearfix">
+    <div id="box" class="clearfix">
+        <label id="formgroup">
+            <p id="text">
+            When...
+            </p>
+            <%= f.input :action, required: true, autofocus: true, label: false, input_html: {id: "textinput", placeholder: "Insert action here"} %>
+        </label>
+        <label id="formgroup1">
+            <p id="text1">
+            The nutfund will be donated to
+            </p>
+            <%= f.input :charity, required: true, label: false, input_html: {id: "textinput1", placeholder: "Insert charity name here"} %>
+        </label>
+        <label id="formgroup2">
+            <p id="text2">
+            Enter charity URL
+            </p>
+                <%= f.input :charity_link, required: true, label: false, input_html: {id: "textinput2", placeholder: "Charity Website"} %>
+        </label>
+        <p id="Headline">
+        $0
+        </p>
+        <p id="text3">
+        <span id="textspan">Campaign can receive funds after it's approved</span><br />
+        </p>
+            <%= image_tag('Polygon 1.png', class: "image", id: "image") %>
+    </div>
+    <div id="Navbar" class="clearfix">
+            <%= image_tag('Logo.png', class: "image", id: "image1") %>
+        <div id="box1" class="clearfix">
+            <a href='Index.html'>
+            <%= image_tag('Logo.png', class: "image", id: "image2") %>
+            </a>
+        </div>
+    </div>
+    <p id="text4">
+    Text
+    </p>
+    <div id="box2" class="clearfix">
+        <div id="box3" class="clearfix">
+            <p id="text5">
+            Short description of campaign
+            </p>
+            <p id="text6">
+            Enter a short description of what the campaign is trying to achieve and what the end charity does.
+            </p>
+            <label id="formgroup3">
+                <p id="text7">
+                <br />
+                </p>
+                <%= f.input :action_description, required: true, label: false, as: :text, input_html: {id: "textinput3", placeholder: "You're almost done!"} %>
+            </label>
+            <%= f.button :submit, "Launch NutFund", id: 'input' %>
+        </div>
+    </div>
+    <div id="box4" class="clearfix">
+        <a href='http://northamerica.startupbus.com' target='_blank'>
+            <%= image_tag('bus-256 copy.png', class: "image", id: "image3") %>
+        </a>
+        <p id="text8">
+        Made with love on the startupbus<br /><span id="textspan1">All rights reserved, NutFund 2014</span>
+        </p>
+    </div>
+    <p id="text9">
+    Text
+    </p>
+</div>
+
 <% end %>

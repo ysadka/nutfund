@@ -9,9 +9,9 @@ Nutfund::Application.routes.draw do
 
   resources :payments
 
-  get '/about',       to: 'pages#about'
-  get '/contact_us',  to: 'pages#contact'
-  get '/campaigns/1', to: 'pages#launch'
+  get '/about',      to: 'pages#about'
+  get '/contact_us', to: 'pages#contact'
+  get '/launch',     to: 'pages#launch'
 
   post '/coinbase_callback', to: 'payments#coinbase_callback'
 end

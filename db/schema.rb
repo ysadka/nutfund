@@ -17,13 +17,13 @@ ActiveRecord::Schema.define(version: 20140305211811) do
   enable_extension "plpgsql"
 
   create_table "campaigns", force: true do |t|
-    t.string   "charity",                          null: false
-    t.integer  "funds_raised",        default: 0,  null: false
-    t.text     "action_description",               null: false
+    t.string   "charity",                         null: false
+    t.integer  "funds_raised",       default: 0,  null: false
+    t.text     "action_description",              null: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "action",              default: "", null: false
-    t.text     "charity_description", default: "", null: false
+    t.string   "action",             default: "", null: false
+    t.string   "charity_link",       default: "", null: false
   end
 
   create_table "payments", id: false, force: true do |t|
