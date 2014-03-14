@@ -1,0 +1,609 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(56, 57, 57);
+    min-width: 760px;
+}
+
+#Navbar {
+    float: left;
+    height: 50px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 760px;
+    background-color: rgb(52, 52, 52);
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+    left: -0.015625px;
+    opacity: 1;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-bottom-style: solid;
+}
+
+#box {
+    float: left;
+    height: 594px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+    min-width: 760px;
+    position: relative;
+    background-color: rgb(37, 125, 157);
+    top: 0px;
+    left: 0px;
+    margin-top: 50px;
+    margin-left: 0px;
+    background-image:url("img/Profile-background.svg");
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 16.499786%;
+    height: auto;
+    margin-left: 43.195805%;
+    margin-top: -2792px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#text9 {
+    float: left;
+    font-size: 1em;
+    width: 15.304864%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: -56.780134%;
+    margin-top: 137px;
+    clear: both;
+    min-height: 26px;
+}
+
+#text4 {
+    float: left;
+    font-size: 1em;
+    width: 23.469807%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: -60.684915%;
+    margin-top: 573.5px;
+    clear: none;
+    min-height: 33px;
+}
+
+#box3 {
+    float: none;
+    height: 402px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 89.306349%;
+    min-width: 760px;
+    max-width: 960px;
+    margin-right: auto;
+}
+
+#box2 {
+    float: left;
+    height: 402px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(56, 57, 57);
+    min-width: 760px;
+    background-image:-webkit-linear-gradient(270deg,rgb(233,237,242) 0%,rgb(208,216,227) 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#box4 {
+    float: left;
+    height: 122px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(56, 57, 57);
+    background-image:-webkit-linear-gradient(270deg,rgb(56,57,57) 0%,rgb(52,52,52) 100%);
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    min-width: 760px;
+    margin-right: 0%;
+}
+
+#image3 {
+    float: none;
+    width: 46px;
+    max-width: 4.302103%;
+    height: 46px;
+    margin-left: auto;
+    margin-top: 18px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    opacity: 0.65;
+    min-height: 46px;
+    min-width: 46px;
+    margin-right: auto;
+    display: block;
+}
+
+#text8 {
+    float: none;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    min-height: 0px;
+    color: rgba(255, 255, 255, 0.65098);
+    margin-right: auto;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgba(255, 255, 255, 0.247059);
+}
+
+#image2 {
+    float: none;
+    width: 137px;
+    height: 36px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    margin-top: 6px;
+    margin-left: auto;
+    min-width: 137px;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    max-width: 15.865522%;
+    margin-right: auto;
+    opacity: 0.9;
+    display: block;
+}
+
+#box1 {
+    float: none;
+    height: 50px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 32.409178%;
+    margin-right: auto;
+}
+
+#image3:hover {
+    opacity: 1;
+}
+
+#Headline {
+    float: none;
+    font-size: 76px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1em;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'trebuchet ms';
+    text-shadow: rgba(0, 0, 0, 0.341176) 0px 1px 3px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 55.1875px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text3 {
+    float: none;
+    font-size: 1em;
+    width: 55.783012%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 4px;
+    clear: none;
+    min-height: 0px;
+    margin-bottom: 10px;
+    max-width: none;
+    min-width: 0px;
+    margin-right: auto;
+}
+
+#textspan {
+    float: none;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: rgba(255, 255, 255, 0.670588);
+    font-weight: 300;
+    font-family: helvetica;
+}
+
+#image {
+    float: none;
+    width: 120px;
+    max-width: 100%;
+    height: 34px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    overflow-y: visible;
+    overflow-x: visible;
+    position: static;
+    top: 0px;
+    left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22.75px;
+}
+
+#text5 {
+    float: none;
+    font-size: 35px;
+    width: 518.296875px;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 56.5px;
+    clear: none;
+    min-height: 31px;
+    color: rgb(83, 83, 83);
+    font-family: 'trebuchet ms';
+    margin-right: auto;
+    min-width: 518.3px;
+}
+
+#text6 {
+    float: none;
+    font-size: 1em;
+    width: 475.828125px;
+    height: auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin-left: auto;
+    margin-top: 10.5px;
+    clear: none;
+    min-height: 36px;
+    color: rgba(51, 51, 51, 0.8);
+    margin-right: auto;
+    min-width: 475.83px;
+}
+
+#input:hover {
+    color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    background-color: rgba(0, 122, 167, 0.721569);
+}
+
+#input {
+    float: none;
+    height: 53px;
+    font-size: 20.4px;
+    margin-left: auto;
+    margin-top: 30.25px;
+    clear: none;
+    width: 241.484375px;
+    border-top-left-radius: 39px;
+    border-top-right-radius: 39px;
+    border-bottom-right-radius: 39px;
+    border-bottom-left-radius: 39px;
+    border-top-color: rgba(255, 255, 255, 0.701961);
+    border-right-color: rgba(255, 255, 255, 0.701961);
+    border-bottom-color: rgba(255, 255, 255, 0.701961);
+    border-left-color: rgba(255, 255, 255, 0.701961);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    box-shadow: rgba(0, 0, 0, 0) 0px 3px 3px 0px inset;
+    color: rgba(255, 255, 255, 0.701961);
+    line-height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-family: helvetica;
+    background-color: rgba(0, 0, 0, 0.239216);
+    margin-right: auto;
+    margin-bottom: 18px;
+}
+
+#image2:hover {
+    opacity: 1;
+}
+
+#formgroup {
+    float: none;
+    height: 128.375px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 39px;
+    clear: none;
+    width: 494.3125px;
+    margin-right: auto;
+    min-width: 494.32px;
+}
+
+#textinput {
+    float: none;
+    height: 49px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(189, 189, 189);
+    border-right-color: rgb(189, 189, 189);
+    border-bottom-color: rgb(189, 189, 189);
+    border-left-color: rgb(189, 189, 189);
+    color: rgb(123, 123, 123);
+    margin-top: 7px;
+}
+
+#text {
+    float: none;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 0.9em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: 'trebuchet ms';
+    text-shadow: rgba(0, 0, 0, 0.341176) 0px 1px 3px;
+}
+
+#formgroup1 {
+    float: none;
+    height: 96.1875px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 12px;
+    clear: none;
+    width: 494.3125px;
+    margin-right: auto;
+    min-width: 494.32px;
+}
+
+#text1 {
+    float: none;
+    font-size: 28px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 0.9em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: 'trebuchet ms';
+    text-shadow: rgba(0, 0, 0, 0.341176) 0px 1px 3px;
+    margin-bottom: 11px;
+}
+
+#textinput1 {
+    float: none;
+    height: 49px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(189, 189, 189);
+    border-right-color: rgb(189, 189, 189);
+    border-bottom-color: rgb(189, 189, 189);
+    border-left-color: rgb(189, 189, 189);
+    color: rgb(123, 123, 123);
+}
+
+#formgroup3 {
+    float: none;
+    height: 127.375px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 491.578125px;
+    margin-right: auto;
+    min-width: 491.58px;
+}
+
+#textinput3 {
+    float: none;
+    height: 6em;
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-bottom: 11px;
+    padding-left: 11px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: none;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-color: rgb(189, 189, 189);
+    border-right-color: rgb(189, 189, 189);
+    border-bottom-color: rgb(189, 189, 189);
+    border-left-color: rgb(189, 189, 189);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    color: rgb(123, 123, 123);
+    text-align: left;
+}
+
+#text7 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+}
+
+#formgroup2 {
+    float: none;
+    height: 96.1875px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-top: 12.3125px;
+    clear: none;
+    width: 494.3125px;
+    margin-right: auto;
+    min-width: 494.32px;
+}
+
+#text2 {
+    float: none;
+    font-size: 28px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 0.9em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: 'trebuchet ms';
+    text-shadow: rgba(0, 0, 0, 0.341176) 0px 1px 3px;
+    margin-bottom: 11px;
+}
+
+#textinput2 {
+    float: none;
+    height: 49px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(189, 189, 189);
+    border-right-color: rgb(189, 189, 189);
+    border-bottom-color: rgb(189, 189, 189);
+    border-left-color: rgb(189, 189, 189);
+    color: rgb(123, 123, 123);
+}
+

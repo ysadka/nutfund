@@ -1,5 +1,5 @@
 Nutfund::Application.routes.draw do
-  root to: 'pages#launch'
+  root to: 'campaigns#homepage'
 
   devise_for :users
 
@@ -11,9 +11,7 @@ Nutfund::Application.routes.draw do
 
   get '/about',      to: 'pages#about'
   get '/contact_us', to: 'pages#contact'
-  get '/bounties/', to: 'pages#nutfund'
-  get '/amazon', to: 'pages#amazon'
-  get '/when-amazon-accepts-bitcoin', to: 'pages#amazon'
+  get '/launch',     to: 'pages#launch'
 
   post '/coinbase_callback', to: 'payments#coinbase_callback'
 end
