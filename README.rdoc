@@ -1,28 +1,15 @@
-== README
+== Nutfund Team to-do
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hey guys, Justin here. I'm thniking, for now at least, that we can use this as a landing page for next steps.
 
-Things you may want to cover:
+It's all open for interpertation, but here is what I see as the next logical iteration:
 
-* Ruby version
+* finish work for users to create their own nutfund
 
-* System dependencies
+* add messaging for email updates
 
-* Configuration
+* add social sharing and shortcode integration to each page for social spread
 
-* Database creation
+* create dashboard where we can review and approve submitted nutfunds
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+If you have any other things you think we need to get done please put your name down and add to the list. :)
