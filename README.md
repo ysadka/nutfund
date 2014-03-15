@@ -1,4 +1,4 @@
-== Nutfund Team to-do
+##Nutfund Team to-do
 
 Hey guys, Justin here. I'm thniking, for now at least, that we can use this as a landing page for next steps.
 
